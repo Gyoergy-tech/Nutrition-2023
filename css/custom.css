@@ -1,0 +1,246 @@
+
+:root{
+
+/* text colors */
+--text-gray:#808291;
+--text-white:#f8f9fa;
+--text-light:#f6f6f6;
+--text-dark:#026c76;
+--text-dark2:#1A3760D4;
+--text-red:#ff4d6d;
+--text-green:#92cf7a;
+--box-shadow:0px 0px 50px 0px rgb(0 0 0 /10%);
+--bg-blue:rgb(249, 243, 255);
+--bg-red:rgb(254, 247, 252);
+--bg-yellow:rgb(255, 255, 246);
+--bg-purple:rgb(246, 255, 255);
+--bg-green:#63ae7b;
+
+--box-shadow:0px 0px 50px 0px rgb(0 0 0 /10%);
+
+--bg-image1:url('../img/Congress/img1.jfif');
+--bg-image2:url('../img/Congress/img2.jfif');
+--bg-image3:url('../img/Congress/img3.jfif');
+
+--bg-image4:url('../img/Cover/banner-links.jpg');
+--bg-image5:url('../img/Cover/Kongresshaus.jpg');
+--bg-image6:url('../img/Cover/Panorama\ Bregenz\ .jpg');
+
+ /* font family */
+ --font-poppins:"Poppins",'sans-serif';
+
+  /* gradient colors */
+
+  --bg-gradient:linear-gradient(to right, #40937d, #92cf7a);
+  --bg-gradient2:linear-gradient(to right, #daefc5, #f8fcf3);
+  --bg-gradient-grün:linear-gradient(to right, #1f8874, #8dc38c);
+  --bg-gradient-hellgrün:linear-gradient(to right, #99c98f, #78c66c);
+
+}
+
+/* -------------------------Global Classes-------------------- */
+
+.font-dark{
+    color: var(--text-dark);
+}
+.font-poppins{
+    font-family: var(--font-poppins);
+}
+
+.text-gray{
+    color: var(--text-gray);
+}
+
+.text-green{
+    color: var(--text-green);
+}
+
+.navbar-custom {
+    background-color: var(--bg-green);
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-nutr{
+    padding: .8rem 2rem;
+    border-radius: 50px;
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    background: var(--bg-gradient);
+}
+
+.btn-nutr:hover{
+    background: var(--bg-gradient-grün);
+}
+
+.btn-nutrAnmeldung{
+    padding: .8rem 2rem;
+    border-radius: 50px;
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    background: var(--bg-gradient2);
+}
+
+.btn-nutrAnmeldung:hover{
+    background: var(--bg-gradient-grün);
+}
+
+.bg-gradient{
+    background: var(--bg-gradient);
+}
+
+.btn-shadow{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+.grid-images{
+    display: grid;
+    grid-template-columns: repeat(16, minmax(10px, 1fr));
+    grid-template-rows: repeat(8, minmax(100px, 1fr));
+}
+/* Die Bilder werden dann in der Größe den Spalten angepasst */
+.item-one{
+    background: var(--text-gray);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: var(--bg-image1) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    /*filter: blur(1px);*/
+}
+
+.item-two{
+    background: var(--text-gray);
+    grid-column-start: 9;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background: var(--bg-image2) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    /*filter: blur(1px);*/
+}
+/* grid area 3-4 row 8-14 column */
+.item-three{
+    grid-area: 3/4/8/14;
+    background: var(--bg-image3) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    z-index: 99;
+
+}
+
+.carousel-inner::after{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.2);
+    
+  }
+
+.carousel-caption{
+    z-index: 1;
+}
+
+.masonry-item{
+    padding:25px;
+    
+}
+
+/* Animationen */
+
+.fade-in{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+.fade-in-left{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.fade-in-right{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1.5s;
+}
+
+.fade-in-top{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 1.5s;
+}
+
+.fade-in-down{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1.5s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+.logo:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.logo:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.ThemenBild:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.ThemenBild:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.ThemenBild:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.ThemenBild:nth-child(5) {
+    transition-delay: 800ms;
+}
+
+.ThemenBild:nth-child(6) {
+    transition-delay: 1000ms;
+}
+
+.ThemenBild:nth-child(7) {
+    transition-delay: 1200ms;
+}
+
+.ThemenBild:nth-child(8) {
+    transition-delay: 1400ms;
+}
+
+.ThemenBild:nth-child(9) {
+    transition-delay: 1600ms;
+}
+

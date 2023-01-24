@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';">
+    -->
+    <link rel="stylesheet" href="css/google-font.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    
+    <title>Nutrition 2023</title>
+</head>
+<body>
+<!--  navbar start -->
+<header>
+<nav class="navbar navbar-expand-sm navbar-light navbar-custom fixed-top p-3">
+    <div class="container">
+        <span class="navbar-brand mb-0 h1 text-dark font-bold font-poppins text-uppercase">Nutrition 2023</span> 
+
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a href="#home" class="nav-link font-poppins">Home</a>
+                    </li>
+                
+                    <li class="nav-item ">
+                        <a href="#unsereThemen" class="nav-link font-poppins">Themen</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#Anmeldung" class="nav-link font-poppins">Anmeldung</a>
+                    </li>
+                 
+                    <li class="nav-item ">
+                        <a href="#Anfahrt" class="nav-link font-poppins">Anfahrt</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#Abstract" class="nav-link font-poppins">Abstract</a>
+                    </li>
+                   
+                </ul>
+        </div>
+    </div>
+</nav>
+</header>
+<main>
+<!--  navbar end -->
+<!--  Home section start -->
+<section class="home mt-md-4" id="home">
+    <!-- Carousel -->
+<div class="d-sm-none" style="height: 60px;">
+
+</div>
+
+  <div id="myCarousel" class="carousel slide " data-bs-ride="carousel" ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Cover/banner-links.jpg" alt="banner" class="d-block w-100">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="text-white text-uppercase display-1 d-none d-sm-block fw-bold font-poppins pt-md-5">Nutrition 2023</h1>
+            <h1 class="text-white text-uppercase fs-1 d-sm-none fw-bold font-poppins pt-md-5">Nutrition 2023</h1>
+            <p class="font-poppins text-white d-none d-sm-block fs-1 fw-bold">Ernährungstherapie ohne Grenzen.</p>
+            <p class="font-poppins text-white d-sm-none">Ernährungstherapie ohne Grenzen.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Cover/Kongresshaus.jpg" alt="Bodensee" class="d-block w-100">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="text-white text-uppercase display-1 d-none d-sm-block fw-bold font-poppins pt-md-5">Nutrition 2023</h1>
+            <h1 class="text-white text-uppercase fs-1 d-sm-none fw-bold font-poppins pt-md-5">Nutrition 2023</h1>
+            <p class="font-poppins text-white d-none d-sm-block fs-1 fw-bold">Es warten über 160 Vorträge auf Sie.</p>
+            <p class="font-poppins text-white d-sm-none">Es warten über 160 Vorträge auf Sie.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Cover/Panorama Bregenz .jpg" alt="Kongresshaus" class="d-block w-100">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="text-white text-uppercase display-1 d-none d-sm-block fw-bold font-poppins pt-md-5">Nutrition 2023</h1>
+            <h1 class="text-white text-uppercase fs-1 d-sm-none fw-bold font-poppins pt-md-5">Nutrition 2023</h1>
+            <p class="font-poppins text-white d-none d-sm-block fs-1 fw-bold">Genießen Sie Bregenz und den Bodensee im Sommer.</p>
+            <p class="font-poppins text-white d-sm-none">Genießen Sie Bregenz und den Bodensee im Sommer.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+</section>
+
+<!--  Home section end -->
+<!--  Verband section start -->
+<section class="Verband py-5">
+    <div class="container-lg text-center py-5">
+        <h2 class="font-poppins font-dark font-bold">Herzlich Willkommen auf der 22. Dreiländertagung</h2>
+        <p class="font-poppins text-gray">Bei den jährlich stattfindenden traditionellen Dreiländertagungen der „Österreichischen Arbeitsgemeinschaft Klinische Ernährung“, der „Deutschen Gesellschaft für Ernährungsmedizin“ und der „Gesellschaft für Klinische Ernährung der Schweiz“ trifft sich ein interdisziplinäres Fachpublikum. Alle zwei Jahre findet die Ernährung/NUTRITION in Deutschland, und dazwischen abwechselnd in Österreich und der Schweiz statt.</p>
+    </div>
+
+    <div class="container-lg py-5">
+        <div class="d-flex flex-column flex-sm-row align-items-center">
+            <div class="col-6 col-sm-4 text-center mb-4 mt-md-4">
+                <a href="https://www.ake-nutrition.at"><img src="img/logo_AKE.gif" class="img-fluid object-fit-cover" alt="Responsive image"></a>         
+            </div>  
+            <div class="col-6 col-sm-4 text-center my-4">
+                <a href="https://www.dgem.de"><img src="img/dgem-logo.png" class="img-fluid object-fit-cover" alt="Responsive image" style="transform: scale(1.5);"></a>
+            </div>
+            <div class="col-6 col-sm-4 text-center mt-4 mb-md-4">
+                <a href="https://www.geskes.ch/Home.aspx"><img src="img/GESKES-logo.gif" class="img-fluid object-fit-cover" alt="Responsive image"></a>
+            </div>
+        </div>
+
+    </div>
+      
+     
+
+</section>
+<!--  Verband section end -->
+<!--  Congress start -->
+<section class="congress py-5" id="congress">
+    <div class="container-lg">
+        <div class="row m-mb-2">
+            <div class="col-md-6 mx-auto mt-md-0">
+                <div class="grid-images pt-2 pt-md-5">
+                    <div class="item-one fade-in-left"></div>
+                    <div class="item-two fade-in-top"></div>
+                    <div class="item-three fade-in-down"></div>
+                </div>           
+            </div>
+            <div class="col-md-6 mt-md-0 text-center row align-items-center mx-auto">
+                <div class="fade-in-left">
+                    <h2 class="fs-1 mb-2 font-poppins font-dark font-bold">Nutrition 2023</h2>
+                    <h2 class="fs-2 mb-2 font-poppins font-dark font-bold">Ernährungstherapie ohne Grenzen</h2>
+                    <p class="fs-5 mb-4 font-poppins text-gray">Unsere Veranstaltung bringt Fachleute aus der Ernährungsmedizin, der Medizin, der Diätologie, der Wissenschaft und der Industrie zusammen,
+                         um die neuesten Forschungsergebnisse und Entwicklungen in der Ernährungsmedizin zu diskutieren und zu präsentieren.
+                        </p>
+                    
+                    <p class="fs-5 fs-5 mb-4 font-poppins text-gray">Der Kongress bietet eine einzigartige Gelegenheit, von führenden Experten zu lernen und von anderen Teilnehmern aus der ganzen Welt zu profitieren. 
+                                    Es werden Vorträge, Posterpräsentationen, LLL-Kurse und Diskussionsrunden angeboten, die auf den aktuellen Trends und Herausforderungen in der Ernährungsmedizin ausgerichtet sind.
+                    </p>
+                    <a href="https://www.ake-nutrition.at/News-item.42.0.html?&tx_ttnews%5Btt_news%5D=179&cHash=e3e38e259d6922de86eb11d27bcc1298" class="btn btn-nutr btn-shadow text-white px-3 mt-3">Jetzt Anmelden</a>
+
+                </div>                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--  Congress start -->
+<!--  Mansory start -->
+<section class="unsereThemen" id="unsereThemen">
+    <div class="container mt-5">
+        <div class="ps-3">
+            <h1 class="fs-1 mb-2 font-poppins font-dark font-bold">
+                Unsere Themen 
+            </h1>
+            <a href="https://www.ake-nutrition.at/News-item.42.0.html?&tx_ttnews%5Btt_news%5D=179&cHash=e3e38e259d6922de86eb11d27bcc1298" class="btn btn-nutr btn-shadow text-white px-3 mt-3"">Zum Programm</a>
+        </div>
+        <div class="row masonry-grid">
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img1.png" class="img-fluid" alt="Image 1">
+              <h3 class="fs-3 mb-2 font-poppins font-dark font-bold pt-2">Allgemeine Ernährung</h3>
+              <span class="font-poppins text-gray">Lebensstil, Nachhaltigkeit, Leistungssport und Ernährung, Ernährungsumgebung und Essverhalten, Digitalisierung und Virtual Reality, Superfood, Neue Trends in der Lebensmittelindustrie, …</span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img2.png" class="img-fluid" alt="Image 2">
+              <h3 class="text-break fs-3 mb-2 font-poppins font-dark font-bold pt-2">Ernährungsforschung</h3>
+              <span>Update zum Intervallfasten, Evidenz der Ernährungstherapie, Ernährungshypes 2023, Adipositas, Internationales, Future Food, …</span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img3.png" class="img-fluid" alt="Image 3">
+              <h3 class="text-break fs-3 mb-2 font-poppins font-dark font-bold pt-2">Ernährungstherapie</h3>
+              <span class="font-poppins text-gray">Onkologie, Suchterkrankungen als Folge der Pandemie, Sarkopenie, Diabetes Mellitus, Ernährung im Alter – von der Zelle ins Gesundheitssystem, Wunderdrogen, Primäre Prävention von Nahrungsmittel-Unverträglichkeiten, Allergien und Asthma, …</span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img4.png" class="img-fluid" alt="Image 4">
+              <h3 class="text-break fs-3 mb-2 font-poppins font-dark font-bold pt-2">Intensivmedizin</h3>
+              <span class="font-poppins text-gray">Stoffwechsel im Schock, Ernährung auf der pädiatrischen Intensivmedizin, Dünn und dick auf der Intensivstation, Muskulatur, Spezialisierung von Diätolog:innen, Basics, …
+            </span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img5.png" class="img-fluid" alt="Image 5">
+              <h3 class="fs-3 mb-2 font-poppins font-dark font-bold pt-2">Organe</h3>
+              <span class="font-poppins text-gray">Brainfood, Chronisch entzündliche Darmerkrankungen, Ernährungstherapie in der Nephrologie, Ernährung und spezifische Organfunktion, …</span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img6.png" class="img-fluid" alt="Image 6">
+              <h3 class="fs-3 mb-2 font-poppins font-dark font-bold pt-2">freie Vorträge</h3>
+              <span class="font-poppins text-gray">Vorträge zu aktuellen Forschungsergebnissen der klinischen Ernährung</span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img7.png" class="img-fluid" alt="Image 7">
+              <h3 class="text-break fs-3 mb-2 font-poppins font-dark font-bold pt-2">Industriesymposien</h3>
+              <span class="font-poppins text-gray">Titel, Titel</span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img8.png" class="img-fluid" alt="Image 8">
+              <h3 class="fs-3 mb-2 font-poppins font-dark font-bold pt-2">Basics</h3>
+              <span class="font-poppins text-gray">ICU Basics: Makronährstoffe, Chirurgie Basics, Basics Problembewusstsein, Basics Kurzdarmsyndrom</span>
+          </div>
+          <div class="col-6 col-md-4 masonry-item fade-in ThemenBild">
+              <img src="img/assets/work/img9.png" class="img-fluid" alt="Image 9">
+              <h3 class="text-break fs-3 mb-2 font-poppins font-dark font-bold pt-2">Posterpräsentationen</h3>
+              <span class="font-poppins text-gray">Posterführung zu aktuellen Themen der klinischen Ernährung</span>
+          </div>
+        </div>
+      </div>
+</section>
+<!--  Mansory end -->
+<!--  Anmeldung section start -->
+
+<section class="home py-5" id="Anmeldung">
+    <div class="container-lg">
+        <div class="row  align-items-center align-content-center">
+            <div class="bg-image p-5 text-center shadow rounded mb-5 text-white" style="background-image:url('img/banner.jpg'); background-size: cover;">
+                
+                <div class="col-md-6">
+                    <h1 class="text-white text-uppercase fs-1 fw-bold font-poppins">Nutrition 2023</h1>
+                    <h2 class="fs-4 font-poppins">vom 1 - 3. Juni 2023, Festspielhaus Bregenz</h2>
+                    <p class="mt-4 text-white font-poppins">Die Nutrition 2023 ist der größte Ernährungsmedizinische Kongress im deutschsprachigem Raum und wird in kooperation der AKE, DGEM und GESKES ausgetragen.</p>
+                    <a href="https://www.ake-nutrition.at/News-item.42.0.html?&tx_ttnews%5Btt_news%5D=179&cHash=e3e38e259d6922de86eb11" class="btn btn-nutrAnmeldung px-3 mt-3 font-poppins text-dark">Jetzt Anmelden</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--  Anmeldung section start -->
+<!--  Kongresspräsidenten section start -->
+<section id="Präsidenten ">
+    <div class="container-lg py-5 ">
+        <div class="row pb-4">
+            <h2 class="fs-1 mb-2 font-poppins font-dark font-bold">Die Kongresspräsidenten</h2>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-4 logo fade-in-left">           
+            <img src="img/Portraits/Fasching.jfif" class="img-fluid object-fit-cover rounded-circle w-25 h-20" alt="Portrait">
+            <h2 class="fw-normal font-poppins fs-3">Peter Fasching</h2>
+            <p class="font-poppins text-gray">Prim. Univ.Prof. Dr.</p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 logo fade-in-left">
+            <img src="img/Portraits/Traub.jpg" class="img-fluid object-fit-cover rounded-circle w-25 h-20" alt="Portrait">
+            <h2 class="fw-normal font-poppins fs-3">Julia Traub</h2>
+            <p class="font-poppins text-gray">Dr.rer.nat. BSc MSc</p>           
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 logo fade-in-left">
+            <img src="img/Portraits/Clemens.jpg" class="img-fluid object-fit-cover rounded-circle w-25 h-20" alt="Portrait">
+            <h2 class="fw-normal font-poppins fs-3"">Patrick Clemens</h2>
+            <p class="font-poppins text-gray">OA Dr.</p>            
+            </div><!-- /.col-lg-4 -->
+
+        </div><!-- /.row -->
+
+        <div class="row pb-4">
+            <h2 class="fs-1 mb-2 font-poppins font-dark font-bold">Das Organisationskomitee</h2>
+        </div>
+
+        <div class="row text-center py-5 ">
+            <div class="col-lg-4 mt-4 logo fade-in-left">
+            <img src="img/Portraits/Schlaffer.jpg" class="img-fluid object-fit-cover rounded-circle w-25 h-20" alt="Portrait">
+            <h2 class="fw-normal fs-3">Romana Schlaffer</h2>
+            <p>Mag. Dr.</p>
+            
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 logo fade-in-left">
+                <img src="img/Portraits/Gyoergyfalvay.png" class="img-fluid object-fit-cover rounded-circle w-25 h-20" alt="Portrait">
+            <h2 class="fw-normal fs-3">Markus Györgyfalvay</h2>
+            <p>Bakk, BSc, MSc</p>
+            
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 logo fade-in-left">
+                <img src="img/Portraits/Huetterer.jpg" class="img-fluid object-fit-cover rounded-circle w-25 h-20" alt="Portrait">
+            <h2 class="fw-normal fs-3">Elisabeth Hütterer</h2>
+            <p>Diätologin</p>
+            
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="card btn-shadow py-4">
+                <div class="text-center py-4">
+                    <h2 class="fs-1 mb-2 font-poppins font-dark font-bold">Sie haben Fragen zur Veranstaltung?</h2>
+                    <p class="fs-5 mt-4 text-muted font-poppins text-gray">Schreiben Sie uns unter office@ake-nutrition.at!</p>
+                    
+                    <a href="mailto:office@ake-nutrition.at" class="btn btn-nutrAnmeldung px-3 mt-3 font-poppins text-dark">Jetzt Anfragen</a>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<!--  Kongresspräsidenten section end -->
+<!--  Anfahrt section start -->
+<section class="Anfahrt py-5" id="Anfahrt">
+    <div class="container-lg">
+        <div class="row align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0 fade-in-left">
+                <div class="home-img text-center">
+                    <img src="img/Lageplan.jpg" class="img-fluid" alt="cover img">
+                </div>
+                <div>
+                    <h4 class="fs-4 mb-1 mt-1 font-poppins font-dark font-bold">Lageplan</h2>
+                    <p class="mt-1 text-muted font-poppins text-gray">Bregenzer Festspielhaus, Platz der Wiener Symphoniker 1, 6900 Bregenz</p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 fade-in-right">
+                <div class="home-text">
+                    <h1 class="text-uppercase fs-1 mb-2 font-poppins font-dark font-bold">Anfahrt</h1>
+                    <h2 class="fs-4 font-poppins font-bold">Sie erreichen uns bequem mit dem Auto, der Bahn, dem Flugzeug oder Schiff.</h2>
+                    <p class="mt-4 text-muted font-poppins text-gray">Informationen zur Anfahrt finden Sie in unserem Programmheft.</p>
+                    <a href="https://www.ake-nutrition.at/News-item.42.0.html?&tx_ttnews%5Btt_news%5D=179&cHash=e3e38e259d6922de86eb11d27bcc1298" class="btn btn-nutr text-white font-poppins">Zum Programm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Anfahrt section end -->
+<!--  Hotelreservierung section start -->
+<section class="Hotelreservierung py-5" id="Abstract">
+    <div class="container-lg">
+        <div class="row align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0 fade-in-down">
+                <div class="home-img text-center">
+                    <img src="img/Cover.png" class="img-fluid" alt="cover img">
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first fade-in-top">
+                <div class="home-text">
+                    <h1 class=" fs-1 mb-2 font-poppins font-dark font-bold">Abstract Einreichung </h2>
+                    <h1 class=" fs-1 mb-2 font-poppins font-dark font-bold">für die <h1 class="text-uppercase fs-1 mb-2 font-poppins font-dark font-bold">Nutrition 2023</h1></h1>
+                    <h2 class="fs-4 font-poppins font-bold">vom 1 - 3. Juni 2023, Festspielhaus Bregenz</h2>
+                    <p class="mt-4 mt-4 font-poppins text-gray">Nutzen Sie die Möglichkeit zur Abstract Einreichung bis 16.03.2023. Es best die Möglichkeit an den freien Vorträgen oder der Posterpräsentation teilzunehmen. Zusätzlich werden die besten Abstracts in der Aktuellen Ernährungsmedizin publiziert.</p>
+                    <a href="https://www.ake-nutrition.at/News-item.42.0.html?&tx_ttnews%5Btt_news%5D=179&cHash=e3e38e259d6922de86eb11d27bcc1298" class="btn btn-nutr text-white font-poppins">Zur Einreichung</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  Hotelreservierung section end -->
+
+<section class="anmeldung-available py-5" id="Hotel">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="card btn-shadow py-4">
+                <div class="text-center py-4">
+                    <h2 class="fs-1 mb-4 font-poppins font-dark font-bold">Hotelreservierung?</h2>
+                    <p class="fs-5 mt-4 text-muted font-poppins text-gray">Finden Sie Ihre geeignette Unterkunft über den Tourismusverband Bregenz.</p>
+                    
+                    <a href="https://www.kongressmanagement.at/kongress_details.asp?id=214" class="btn btn-nutr font-poppins text-white">Jetzt Buchen</a>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<hr class="featurette-divider">
+
+</main>
+<footer class="container py-5">
+    <div class="row">
+        <div class="col-lg-10">
+            <p class="font-poppins">&copy; 2023 Arbeitsgemeinschaft klinische Ernährung. &middot; <a href="http://127.0.0.1:5500/CongressPage/impressum.html" class="font-poppins">Impessum</a> &middot; <a href="http://127.0.0.1:5500/CongressPage/kontakt.html" class="font-poppins">Kontakt</a></p>
+        </div>
+        <div class="col-lg-2">
+            <p class="float-end font-poppins"><a href="#">Zurück zum Start</a></p>
+        </div>
+       
+    </div>
+    
+  </footer>
+
+
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
