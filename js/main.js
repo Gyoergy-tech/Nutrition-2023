@@ -7,6 +7,14 @@ var masonry = new Masonry( grid, {
   percentPosition: true
 });
 
+var images = document.querySelectorAll('.img-fluid');
+images.forEach(function (ele) {
+  ele.addEventListener('load', function () {
+    console.log("Image is loaded: " + ele.getAttribute("src"));
+    masonry.layout();
+  })
+})
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) =>{
     if(entry.isIntersecting){
