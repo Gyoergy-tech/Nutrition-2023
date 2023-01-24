@@ -162,6 +162,10 @@
     
 }
 
+.klein{
+    font-size: small;
+}
+
 /* Animationen */
 
 .fade-in{
